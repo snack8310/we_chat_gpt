@@ -1,0 +1,25 @@
+[server]
+ip = "0.0.0.0"
+port = "80"
+
+[wechat_config]
+app_id = "YOUR_APP_ID"
+app_secret = "YOUR_SERRET"
+token = "WECHAT_TOKEN"
+encoding_aeskey = "WECHAT_AESKEY"
+
+[chat_gpt_config]
+api = "YOUR CHATGPT API"
+model = "gpt-3.5-turbo"
+
+[database]
+host = "DB_HOST"
+username = "DB_USERNAME"
+password = "YOUR_PASSWORD"
+database = "DB_TABLE_NAME"
+# url = "mysql://chat1.mysql.database.azure.com"
+max_connections = 5
+ssl_ca_name = "DigiCertGlobalRootCA.crt.pem"
+
+[log]
+level = "warn"
